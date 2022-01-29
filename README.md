@@ -5,11 +5,19 @@ Physics-informed deep super-resolution of spatiotemporal data
 The paper is currently under review.
 
 
-## Requirements
+## System requirements
 
 - Python 3.6.13
 - [Pytorch](https://pytorch.org/) 1.6.0
 - Other packages such as *Matplotlib, Numpy and Scipy* are also used
+
+## Installtion guide
+
+
+## Demo
+
+
+
 
 ## Dataset
 
