@@ -57,7 +57,7 @@ We show the PhySR for 2D and 3D Gray-Scott reaction-diffusion equations in the f
 
 #### Ablation study
 
-The ablation codes are provided in folder ```Ablation```. The setup is similar to ***Implementation***.
+The ablation codes are provided in folder ```Ablation```. The setup is similar to **Implementation**.
 - w/o physics loss
 - w/o ConvLSTM
 
