@@ -610,7 +610,7 @@ if __name__ == '__main__':
     ######################### build model #############################
     # training parameters
     n_iters = 2000 
-    learning_rate = 3e-3
+    learning_rate = 1e-3
     print_every = 2
     dt = 1.0*5*2
     dx = 1.0  
