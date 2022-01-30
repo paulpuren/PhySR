@@ -50,6 +50,7 @@ We show the PhySR for 2D and 3D Gray-Scott reaction-diffusion equations in the f
 	- the trained model under the directory of ```save_path```  
 	- the figures of comparative results and loss history under the directory of ```fig_save_path```
 	- the tested error will be printed on the screen
+	- we also save the tested low-resolution dataset, high-resolution dataset and the predicted results
 
 #### Baseline models
 - [MeshfreeFlowNet](https://github.com/maxjiang93/space_time_pde): please refer to this open-source code.
