@@ -43,8 +43,23 @@ Considering the traing data size being over large, we provide the ```code``` for
 
 We show the PhySR for 2D and 3D Gray-Scott reaction-diffusion equations in the folder ```Code```. 
 
+- Make the names of the numerical data consistent with the class ```Dataset``` and their dimension numbers. For example, in ```2DGS```, the name of the first low-resolution dataset with one specific initial condition should be like ```2DGS_IC0_2x751x32x32.mat```.
+- You may manually select the dataset for training across many initial states.
+- ```save_path``` is for saving models, and ```fig_save_path``` aims for saving tested figures to check the performance roughly.
+- The expected outputs are: 
+	- the trained model under the directory of ```save_path```  
+	- the figures of comparative results and loss history under the directory of ```fig_save_path```
+	- the tested error will be printed on the screen
 
+#### Baseline models
+- [MeshfreeFlowNet](https://github.com/maxjiang93/space_time_pde): please refer to this open-source code.
+- Interpolation: it is provided in ```Baseline```.
 
+#### Ablation study
+
+The ablation codes are provided in folder ```Ablation```. The setup is similar to ***Implementation***.
+- w/o physics loss
+- w/o ConvLSTM
 
 ## License
 
