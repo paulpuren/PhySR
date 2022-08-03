@@ -2,7 +2,7 @@
 
 Physics-informed deep super-resolution of spatiotemporal data
 
-The paper is currently under review. Preprint version is here [Link](https://arxiv.org/abs/2208.01462).
+The paper is currently under review. Preprint version is here [[Link]](https://arxiv.org/abs/2208.01462).
 
 ## Overview
 
