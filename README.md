@@ -2,7 +2,7 @@
 
 Physics-informed deep super-resolution of spatiotemporal data
 
-The paper is currently under review. Preprint version is here [[Link]](https://arxiv.org/abs/2208.01462).
+This paper has been accepted by the *Journal of Computational Physics*. Please see the official publication here ([Link](https://www.sciencedirect.com/science/article/pii/S0021999123005338?casa_token=VkF7g2e9Q8sAAAAA:uJ04SY6xXHeAq7sTfQ4my4kLUankf9SvvMj7MQzA8Ou87wnXXhieuUCTtZRWPvf8Z7BUeukX6Aci)) and the preprint version here ([Link](https://arxiv.org/abs/2208.01462)).
 
 ## Overview
 
@@ -61,6 +61,21 @@ We show the PhySR for 2D and 3D Gray-Scott reaction-diffusion equations in the f
 The ablation codes are provided in folder ```Ablation```. The setup is similar to **Implementation**.
 - w/o physics loss
 - w/o ConvLSTM
+
+## Citation
+
+Please consider citing our paper if you find our research helpful. :D
+
+```
+@article{ren2023physr,
+  title={PhySR: Physics-informed Deep Super-resolution for Spatiotemporal Data},
+  author={Ren, Pu and Rao, Chengping and Liu, Yang and Ma, Zihan and Wang, Qi and Wang, Jian-Xun and Sun, Hao},
+  journal={Journal of Computational Physics},
+  pages={112438},
+  year={2023},
+  publisher={Elsevier}
+}
+```
 
 ## License
 
